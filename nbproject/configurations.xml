@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="alsa" displayName="alsa" projectFiles="true">
+        <logicalFolder name="sound" displayName="sound" projectFiles="true">
+          <itemPath>alsa/sound/asound_fm.h</itemPath>
+          <itemPath>alsa/sound/emu10k1.h</itemPath>
+          <itemPath>alsa/sound/hdsp.h</itemPath>
+          <itemPath>alsa/sound/hdspm.h</itemPath>
+          <itemPath>alsa/sound/sb16_csp.h</itemPath>
+          <itemPath>alsa/sound/sscape_ioctl.h</itemPath>
+          <itemPath>alsa/sound/type_compat.h</itemPath>
+        </logicalFolder>
+        <itemPath>alsa/alisp.h</itemPath>
+        <itemPath>alsa/asoundef.h</itemPath>
+        <itemPath>alsa/asoundlib.h</itemPath>
+        <itemPath>alsa/conf.h</itemPath>
+        <itemPath>alsa/control.h</itemPath>
+        <itemPath>alsa/control_external.h</itemPath>
+        <itemPath>alsa/error.h</itemPath>
+        <itemPath>alsa/global.h</itemPath>
+        <itemPath>alsa/hwdep.h</itemPath>
+        <itemPath>alsa/iatomic.h</itemPath>
+        <itemPath>alsa/input.h</itemPath>
+        <itemPath>alsa/mixer.h</itemPath>
+        <itemPath>alsa/mixer_abst.h</itemPath>
+        <itemPath>alsa/output.h</itemPath>
+        <itemPath>alsa/pcm.h</itemPath>
+        <itemPath>alsa/pcm_external.h</itemPath>
+        <itemPath>alsa/pcm_extplug.h</itemPath>
+        <itemPath>alsa/pcm_ioplug.h</itemPath>
+        <itemPath>alsa/pcm_old.h</itemPath>
+        <itemPath>alsa/pcm_plugin.h</itemPath>
+        <itemPath>alsa/pcm_rate.h</itemPath>
+        <itemPath>alsa/rawmidi.h</itemPath>
+        <itemPath>alsa/seq.h</itemPath>
+        <itemPath>alsa/seq_event.h</itemPath>
+        <itemPath>alsa/seq_midi_event.h</itemPath>
+        <itemPath>alsa/seqmid.h</itemPath>
+        <itemPath>alsa/timer.h</itemPath>
+        <itemPath>alsa/use-case.h</itemPath>
+        <itemPath>alsa/version.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>alsa</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-lasound -lpthread -pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="alsa/alisp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/asoundef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/asoundlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/control_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/hwdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/iatomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/mixer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/mixer_abst.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_extplug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_ioplug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_old.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_plugin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_rate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/rawmidi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq_event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq_midi_event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seqmid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/asound_fm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/emu10k1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/hdsp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/hdspm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/sb16_csp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/sscape_ioctl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/type_compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/use-case.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="alsa/alisp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/asoundef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/asoundlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/control_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/hwdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/iatomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/mixer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/mixer_abst.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_extplug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_ioplug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_old.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_plugin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/pcm_rate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/rawmidi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq_event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seq_midi_event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/seqmid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/asound_fm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/emu10k1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/hdsp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/hdspm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/sb16_csp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/sscape_ioctl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/sound/type_compat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/use-case.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alsa/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
