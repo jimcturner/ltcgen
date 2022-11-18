@@ -1,4 +1,13 @@
 # ltcgen
+This is a standalone C application (ignore the .CPP extension - it's C!) to generate LTC timecode through the standard audio ouput of a Raspberry Pi.
+
+It is still in use (has been running reliably since 2018) but not touched since but this is no longer an active project
+
+This repo is a reconstruction of the original based on a git clone exhumed from my local machine back in 2018. I'm not sure what happened the original repo hosted on githib, it seems to have disappeared. It is believed to be the latest version.
+James Turner 18/11/22
+
+Excerpts from the main source file....
+
 * File:   main.cpp
  * Author: turnej04
  *
